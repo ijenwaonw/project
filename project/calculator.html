@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function calcator(a,b,c){
+        if(c=== "add")  {
+            return add(a,b)
+        }else if (c === "subtract"){
+            return substract(a,b)
+        }else if (c === "divide"){
+            return divide(a,b)
+        }
+        else if (c === "multiply"){
+            return multiply(a,b)
+        }
+        else{
+            return "enter a valid operator"
+        }
+      }
+  
+      function dialog(name){
+          if(name.length <=5){
+              return name + "it is short"
+          }
+          else{
+              return "hello" + name.toUpperCase()
+          }
+      }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+}
+
+
+#navbar{
+     background-color: yellow;
+     padding: 10px;
+
+}
+#logo{
+    width: 70px;
+}
+#nav-ul{
+    list-style-type: none;
+    float :right;
+}
+#nav-ul li{
+    display : inline;
+    color : white;
+    margin : 0px 15px;
+    font-weight: 600;
+}
